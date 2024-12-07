@@ -19,9 +19,9 @@ p {
   font-size: 24px;
 }
 
-.flex-container div {
+/* .flex-container div {
   border: 1px solid rgb(226, 32, 32);
-}
+} */
 
 .body,
 .html {
@@ -48,4 +48,11 @@ p {
 .left_side p {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+.rectangle {
+  width: 200px;
+  height: 200px;
+  border: 1px solid blue;
+  border-radius: 20px;
 }

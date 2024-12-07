@@ -36,3 +36,22 @@
   display: flex;
   justify-content: flex-end;
 }
+
+/* .info_section {
+  padding: px 200px;
+} */
+
+.info_rectangles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  padding: 10px 200px;
+}
+
+.info_texts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
