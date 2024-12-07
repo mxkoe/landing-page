@@ -25,7 +25,7 @@
   align-items: center;
   justify-content: flex-start;
   gap: 40px;
-  padding: 10px 280px;
+  padding: 100px 280px;
 }
 
 .hero > * {
@@ -61,4 +61,31 @@
   align-items: center;
   justify-content: center;
   gap: 60px;
+}
+
+.cta {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 10px 100px;
+}
+
+.cta > * {
+  flex: 1;
+}
+
+.cta_button {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  padding: 50px 280px;
+}
+
+.footer_items {
+  flex: 1;
+  align-self: center;
+  text-align: center;
 }

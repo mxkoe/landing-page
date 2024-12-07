@@ -5,7 +5,8 @@ button {
 }
 
 .header,
-.hero {
+.hero,
+.footer {
   background-color: #1f2937;
   color: white;
 }
@@ -67,4 +68,20 @@ p {
   font-size: 36px;
   font-style: italic;
   font-weight: lighter;
+}
+
+.cta {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 20px;
+  margin: 120px;
+}
+
+.cta_button > button {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+  border-color: white;
+  padding: 8px;
 }
