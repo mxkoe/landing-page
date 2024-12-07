@@ -55,4 +55,16 @@ p {
   height: 200px;
   border: 1px solid blue;
   border-radius: 20px;
+  border-width: 4px;
+}
+
+.quote_section {
+  background-color: #e5e7eb;
+  color: #1f2937;
+}
+
+.quote_section > div > h1 {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
 }

@@ -37,9 +37,16 @@
   justify-content: flex-end;
 }
 
-/* .info_section {
-  padding: px 200px;
-} */
+.quote_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 550px;
+}
+
+.info_section {
+  padding: 0px 200px 80px 200px;
+}
 
 .info_rectangles {
   display: flex;
