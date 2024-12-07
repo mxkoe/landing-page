@@ -15,6 +15,10 @@ p {
   font-family: "Roboto";
 }
 
+.logo_section h1 {
+  font-size: 24px;
+}
+
 .flex-container div {
   border: 1px solid rgb(226, 32, 32);
 }
@@ -22,4 +26,26 @@ p {
 .body,
 .html {
   height: 100%;
+}
+
+.nav-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: white;
+}
+
+.left_side h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.left_side p {
+  font-size: 18px;
+  color: #e5e7eb;
 }

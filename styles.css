@@ -6,28 +6,33 @@
 .header {
   display: flex;
   align-items: center;
-  padding: 20px;
+  padding: 10px 280px;
+  gap: 40px;
 }
 
-.header_image {
+.header > * {
   flex: 1;
 }
 
-.links_container {
+.nav-list {
   display: flex;
-  flex: 2;
-  justify-content: right;
+  gap: 1rem;
+  justify-content: flex-end;
 }
 
 .hero {
   display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 40px;
+  padding: 10px 280px;
 }
 
-.left_side {
-  align-self: center;
-  flex: 2;
+.hero > * {
+  flex: 1;
 }
 
 .right_side {
-  flex: 1;
+  display: flex;
+  justify-content: flex-end;
 }
